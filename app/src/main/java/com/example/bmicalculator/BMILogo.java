@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
-public class logo extends AppCompatActivity {
+public class BMILogo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class logo extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(logo.this, MainActivity.class);
+                Intent intent=new Intent(BMILogo.this, BMIMainActivity.class);
                 startActivity(intent);
             }
         }, 5000);

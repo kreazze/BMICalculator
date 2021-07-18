@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class bmiresult extends AppCompatActivity {
+public class BMIResult extends AppCompatActivity {
 
     TextView result_bmistr, result_bminum;
     ImageView result_img;
@@ -81,7 +81,7 @@ public class bmiresult extends AppCompatActivity {
         bmirecalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bmiresult.this,MainActivity.class);
+                Intent intent = new Intent(BMIResult.this,BMIMainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -90,7 +90,7 @@ public class bmiresult extends AppCompatActivity {
         bmigoback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bmiresult.this,MainActivity.class);
+                Intent intent = new Intent(BMIResult.this,BMIMainActivity.class);
                 startActivity(intent);
                 finish();
             }

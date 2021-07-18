@@ -11,7 +11,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class BMIMainActivity extends AppCompatActivity {
 
     TextView input_age, input_height, input_weight;
     SeekBar scroll_age, scroll_height, scroll_weight;
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }
                 else{
-                    Intent intent = new Intent(MainActivity.this,bmiresult.class);
+                    Intent intent = new Intent(BMIMainActivity.this,BMIResult.class);
                     intent.putExtra("gender", user);
                     intent.putExtra("age", age);
                     intent.putExtra("height", height);

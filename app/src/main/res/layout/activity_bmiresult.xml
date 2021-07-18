@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEFE8"
-    tools:context=".bmiresult">
+    tools:context=".BMIResult">
 
     <ImageView
         android:layout_width="40dp"
