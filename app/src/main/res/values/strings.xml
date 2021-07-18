@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
+    <string name="female">FEMALE</string>
+    <string name="male">MALE</string>
+    <string name="age">AGE</string>
+    <string name="display_age">0</string>
+    <string name="height">HEIGHT</string>
+    <string name="display_height">0</string>
+    <string name="unit_height">cm</string>
+    <string name="weight">WEIGHT</string>
+    <string name="display_weight">0</string>
+    <string name="unit_weight">kg</string>
+    <string name="calculate_bmi">Calculate your BMI</string>
+    <string name="recalculate_bmi">Recalculate your BMI</string>
+    <string name="go_back">Go Back</string>
+    <string name="result_text2">0</string>
+
+</resources>
